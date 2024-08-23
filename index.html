@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="left-container">
+        <div class="logo-container">
+          <img src="./assets/odin.png" alt="odin logo" class="odin-image" />
+          <h1 class="logo-text">Odin</h1>
+        </div>
+      </div>
+      <main class="right-container">
+        <article class="px-4">
+          <h2>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <i>now</i> to get started.
+          </h2>
+          <h2>You know <i>you</i> want to</h2>
+        </article>
+        <div class="form-container">
+          <h3>Let's do this!</h3>
+          <form action="" method="POST" class="grid-form">
+            <div class="input-layout">
+              <label for="firstname" class="input-label">First Name</label>
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                class="input"
+              />
+            </div class="input-layout">
+
+            <div class="input-layout">
+              <label for="lastname" class="input-label">Last Name</label>
+              <input type="text" id="lastname" name="lastname" class="input" />
+            </div>
+
+            <div class="input-layout">
+              <label for="email" class="input-label">Email</label>
+              <input type="email" id="email" name="email" class="input" />
+            </div>
+
+            <div class="input-layout">
+              <label for="phoneNumber" class="input-label">Phone Number</label>
+              <input
+                type="number"
+                id="phoneNumber"
+                name="phoneNumber"
+                class="input"
+              />
+            </div>
+
+            <div class="input-layout">
+              <label for="password" class="input-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="input"
+              />
+            </div>
+
+            <div class="input-layout">
+              <label for="password" class="input-label">Confirm Passowrd</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="input"
+              />
+            </div>
+          </form>
+        </div>
+
+        <div class="cta-container">
+            <button class="primary-btn">Create Account</button>
+            <p class="cta-text">Already have an account? <a href="/login" class="">Login</a></p>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
